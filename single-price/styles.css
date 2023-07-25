@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+}
+
+
+@media only screen and (min-width: 305px) and (max-width: 1100px) {
+
+   
+    .main-container {
+    
+        width: 320px;
+        margin: 30px auto;
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px 25px 40px 25px;
+
+        background-color: #fff;
+    }
+
+    #first-title {
+        font-family: 'Karla', sans-serif;
+        color: hsl(179, 62%, 43%);
+        font-size: 20px;
+        font-weight: 700;
+
+        margin-bottom: 20px;
+    }
+    
+    #second-title {
+        font-family: 'Karla', sans-serif;
+        color: hsl(71, 73%, 54%);
+        font-size: 16px;
+        font-weight: 700;
+        
+        margin-bottom: 20px;
+    }
+
+    #main-paragraph {
+        font-family: 'Karla', sans-serif;
+        color: hsl(203, 24%, 79%);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .second-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 25px 25px 25px 25px;
+
+        background-color: hsl(179, 62%, 40%);
+    }
+
+    #second-title-title {
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 18px;
+
+        margin-bottom: 5px;
+    }
+
+    .price-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+
+        margin-top: 15px;
+    }
+
+    #main-price {
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    #desc-price {
+        font-family: 'Karla', sans-serif;
+        color:hsl(204, 43%, 93%);
+        font-weight: 400;
+    }
+
+    #description {
+        font-family: 'Karla', sans-serif;
+        color:#fff;
+        font-weight: 400px;
+        margin-bottom: 30px;
+    }
+
+    #button {
+        width: 350px;
+        height: 50px;
+      
+
+        border: none;
+        border-radius: 5px;
+        background-color: hsl(71, 73%, 54%);
+        margin: 0 auto;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+        font-family: 'Karla', sans-serif;
+        color:#fff;
+        font-size: 16px;
+        font-weight: 700px;
+    }
+
+    .third-container {
+      
+        width: 100%;
+        padding: 30px 25px 25px 25px;
+        background-color:hsl(179, 62%, 43%);
+        
+    }
+
+    #third-title {
+        font-family: 'Karla', sans-serif;
+        color:#fff;
+        font-size: 20px;
+    }
+
+    .list {
+        list-style-type: none;
+        font-family: 'Karla', sans-serif;
+        color:hsl(204, 43%, 93%);
+        font-size: 13px;
+        font-weight: 400;
+        
+
+        margin-top: 20px;
+        
+    }
+
+    .list > li {
+        padding-bottom: 10px;
+        align-items: center;
+
+    }
+
+}
+
+@media only screen and (min-width: 1101px) {
+    .main-container {
+        margin: 150px auto;
+
+        width: 800px;
+        height: 550px;
+        
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 275px;
+
+        background-color: #fff;
+        padding: 30px;
+    }
+
+    #first-title {
+        font-family: 'Karla', sans-serif;
+        color: hsl(179, 62%, 43%);
+        font-size: 35px;
+        font-weight: 700;
+
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    #second-title {
+        font-family: 'Karla', sans-serif;
+        color: hsl(71, 73%, 54%);
+        font-size: 18px;
+        font-weight: 700;
+        
+        margin-bottom: 20px;
+    }
+
+    #main-paragraph {
+        font-family: 'Karla', sans-serif;
+        color: hsl(203, 24%, 79%);
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .container_desktoop {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 275px; 
+    }
+
+    .second-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 45px;
+        background-color: hsl(179, 62%, 40%);
+    }
+
+
+    #second-title-title {
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 23px;
+
+        margin-bottom: 5px;
+    }
+
+    .price-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+
+        margin-top: 15px;
+    }
+
+    #main-price {
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    #desc-price {
+        font-family: 'Karla', sans-serif;
+        color:hsl(204, 43%, 93%);
+        font-weight: 400;
+    }
+
+    #description {
+        font-family: 'Karla', sans-serif;
+        color:#fff;
+        font-size: 18px;
+        font-weight: 400px;
+        margin-bottom: 30px;
+    }
+
+    #button {
+        width: 350px;
+        height: 50px;
+      
+
+        border: none;
+        border-radius: 5px;
+        background-color: hsl(71, 73%, 54%);
+        margin: 0 auto;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+        font-family: 'Karla', sans-serif;
+        color:#fff;
+        font-size: 16px;
+        font-weight: 700px;
+    }
+
+    .third-container {
+
+        width: 50%;
+        height: 100%;
+        background-color:hsl(179, 62%, 43%);
+        padding: 40px 45px;
+    }
+
+    #third-title {
+        font-family: 'Karla', sans-serif;
+        color:#fff;
+        font-size: 23px;
+    }
+
+    .list {
+        list-style-type: none;
+        font-family: 'Karla', sans-serif;
+        color:hsl(204, 43%, 93%);
+        font-size: 13px;
+        font-weight: 400;
+        
+
+        margin-top: 20px;
+        
+    }
+
+    .list > li {
+        padding-bottom: 7px;
+        align-items: center;
+
+    }
+
+ 
+
+}
